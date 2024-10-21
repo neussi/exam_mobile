@@ -1,0 +1,54 @@
+name: examp_app
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6 # Adds the Cupertino Icons font
+
+  webview_flutter: 4.8.0
+
+
+# Development dependencies
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+
+    android: true
+
+    ios: true
+
+    image_path: "assets/icon/app_icon.png" 
+
+
+# Flutter specific settings
+flutter:
+
+  uses-material-design: true
+
+  # Custom icons configuration
+  
+  # Assets section (uncomment and specify your assets if needed)
+  assets:
+    - assets/app_icon.png
+
+
+
+
+
+
